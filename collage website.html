@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/kosuri.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+    
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:skyblue;
+  
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 25px;
+  text-decoration:line through;
+}
+
+li a:hover {
+  background-color: mediumorchid;
+}
+</style>
+</head>
+<body> 
+   
+    
+<h2 style="text-align: center; font: bold" ;="">SIDDARTHA GROUP OF INITITUTIONS</h2>
+
+
+<ul>
+     
+  <li><a href="http://www.siddharthgroup.ac.in/">HOME</a></li>
+  <li><a href="http://www.siddharthgroup.ac.in/">NEWS</a></li>
+  <li><a href="http://www.sistk.org/contact_us.php">CONTACT</a></li>
+  <li><a href="http://www.sistk.org/sistk_gallery.php">GALLERY</a></li>
+  <li><a href="http://siddharthgroup.ac.in/sistkresultpage.html">RESULTS PAGE</a></li>
+  <li><a href="http://www.sistk.org/">SISTK</a></li>
+ <li> <a href="http://www.sietk.org/">SIETK</a></li>
+ <li><a href="http://www.siddharthgroup.ac.in/">ABOUT</a></li>
+ <li><a href="https://www.google.com/search?q=sistk+collage+location&amp;oq=sistk+collage+location&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgcIAhAhGJIDMgcIAxAhGJIDMgcIBBAhGJIDMgcIBRAhGJIDMgcIBhAhGJIDMgcIBxAhGJID0gEJMTUwMzJqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8#">LOCATION</a></li>
+</ul>
+<h2 style="text-align: center;">STUDENT ADMISSION FORM</h2>
+<form style="background-color: aqua;">
+  <table style="text-align:center;">
+    <tbody><tr>
+      <td>
+        NAME :
+        
+      </td>
+      <td>
+        <input type="text" placeholder="NAME" name="">
+      </td>
+    </tr>
+    <tr><td>
+      GENDER:
+    </td>
+    <td>
+      <input type="radio" name="GENDER">MALE
+        <input type="radio" name="GENDER">FEMALE
+    </td>
+  </tr>
+  <tr>
+    <td>
+      EMAIL:
+    </td>
+    <td>
+      <input type="TEXT" placeholder="EMAIL" name="">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      CONTACT NO:
+    </td>
+    <td>
+      <select>
+        <option>+91</option>
+      </select>
+      <input type="TEXT" placeholder="CONTACT" name="">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      AADHAR:
+    </td>
+    <td>
+    <input type="TEXT" placeholder="AADHAR" name="">
+  </td>
+  </tr>
+    <tr>
+      <td>
+        ECET HALL TICKET NO:
+      </td>
+      <td>
+        <input type="TEXT" placeholder="HALL TICKET NO" ecet="" hall="" ticket="" no="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        RANK:
+      </td>
+      <td>
+      <input type="TEXT" placeholder="RANK" rank="">
+    </td>
+    </tr>
+    <tr>
+      <td>
+        FATHER NAME:
+      </td>
+      <td>
+      <input type="text" placeholder="FATHER NAME" name="">
+    </td>
+    </tr>
+    <tr>
+      <td>
+        MOTHER NAME:
+      </td>
+      <td>
+        <input type="TEXT" placeholder="MOTHER NAME" mother="" name="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        ADDRESS:
+      </td>
+      <td>
+        <input type="TEXT" placeholder="ADDRESS" address="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" value="submit" name="">
+      </td>
+    </tr>
+   
+
+    
+
+  </tbody></table>
+</form>
+
+<img src="./collage website_files/sietk.webp" width="100%" height="100%">
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>
